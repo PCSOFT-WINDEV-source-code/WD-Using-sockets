@@ -1,0 +1,123 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Using sockets
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Using Sockets Project
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Using sockets
+    internal_properties : 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
+    configuration_id : 12871649287017681671
+    type : 1
+    generation_name : WD Using sockets.exe
+    version :
+     major_version : 22
+     minor_version : 37
+     internal_generation_version : 2
+     autoincrement_version : false
+    icon_filename : .\APPOINTMENT.ICO
+    language : 2
+    telemetry :
+     status : disabled
+ elements :
+  identifier : 0x4ac4820c0011960c
+  elements :
+   -
+     name : Window_identification
+     identifier : 0x3db51e023cf8f80b
+     internal_properties : CAAAAAgAAADkYszo14ykRxDj6mZcRk626tnhKcbpIInGNmlhAEzIYKgKGRx3Srw+PefRL/fpkQfxcQ==
+     physical_name : .\Window_identification.wdw
+     type : 2
+   -
+     name : Server_Window
+     identifier : 0x3db51e06206ef85b
+     internal_properties : CAAAAAgAAAD+ZNbK+aYOIS69cAi2KXz4VCVzK8plYzyLBdRsOeMpj3FR2uulZNLUh7ErlR3TryHraw==
+     physical_name : .\Server_Window.wdw
+     type : 2
+   -
+     name : Window_Selection_Mode
+     identifier : 0x3db51e0709baf86f
+     internal_properties : CAAAAAgAAADmbM7S0Y6mSRYV2HBOEhTwXB8bA1xaXUBIBssE7FBEpGhW0dTNPKosL+nTLfXrlwnzcw==
+     physical_name : .\Window_Selection_Mode.wdw
+     type : 2
+   -
+     name : Global Procedures of WD Using Sockets
+     identifier : 0x3db51e054f34f847
+     internal_properties : CAAAAAgAAAAlIQ0RrstjfMuKATmHLGvbD3KOBte637lUhvpFLj7cdECsufyUdeHllI4I8LAg2MgwMA==
+     physical_name : .\Global Procedures of WD Using Sockets.wdg
+     type : 7
+   -
+     name : Client_Window
+     identifier : 0x3db51e08489df883
+     internal_properties : CAAAAAgAAABIxrBsWwAoMzzPtsL4dpoC1nU99XJ9xK4uFhRpKOQo2Gj6aUxbrhiaWcM9u3t1DYNN1Q==
+     physical_name : .\Client_Window.wdw
+     type : 2
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAAAhig+nThGthu8CYonlhJe6o90csrKM04bh0TQYR8YQ+di41eQGzlGnfPPX0rJcG98ghV2718XrJTxxqe/Xi7KFjsFCeDJeyAk=
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      gnListeningPort is int = 5010
+      
+      SWITCH CommandLine
+      	CASE <§@00000000000000000000§> :
+      		// Open the Server window
+      		Open(Server_Window)
+      	CASE <§@00000000000000000001§> :
+      		// Open the Customer window
+      		Open(Window_identification)
+      	OTHER CASE :
+      		// Default project window		
+      		Open(Window_Selection_Mode)
+      END
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Using sockets
+     identifier : 0x4ac4820d001796e7
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : /SERVER
+     index : 0
+   -
+     text :
+      en-GB : /CUSTOMER
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

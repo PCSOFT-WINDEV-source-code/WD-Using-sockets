@@ -1,0 +1,163 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Window_identification
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : Identification
+ subtype : 0
+window :
+ name : Window_identification
+ identifier : 0x286e0c8a05dd1307
+ internal_properties : CAAAAAgAAABJoNooKVekk9DUuLAuBKMh+NS2ajMq/E1VWaI5/wWWxw2xTe8RzlgmlPMopTTeXGOmwnx2CZZCj2XWHKYzhnrNjlkUDrda8DcE4WdeIG330odGsANrRMeBDR9m4ITDFH8/MDvsy9RylcqWJ6niOz4V2INwEAXSF1mdUfQ0ZkWx2YCcAgjk22I3uETQ5m73EteyQQvnBRRpCTg+1xSiCEV3HKsAmKyXHDke45mqP4F8gstVRDYiJrV8+D1TagOtPF9ZCFp2ZC710LcoelZAANWdeKk1mbyGrEUpGuruP2fpK2qqLHsOx/mLqQMMZ65gWT+ku8aeTqMxSr6BxMEyV3GjlDArVdJqXp5V3Evg/uX5s23wfz5D54F4UArBVwHHV4eqU4DEnrY1nL7ojX5MX0wbMQe7NDyB2Q0JKiUSXjkmbw1DLH5EVK66m8g8hYi5lr6XXF93eGJ3nhaSgsEFbb8Fu7asEH33Pv+9cgvzOeOMwpWVwtvZJszR7skeE03hT4dLZ25xhxFTywIU1zFkcIyrqTgNyhLL5xCqe8Dy09ckaWxYgklji4gSvfGiHOVaV5h01Ku3Tc3tlO3ayQUhjF9qTpfrHLettQqXgujvP2chblyswx5P7qpxIQ9S1cXq2kkJbvKY8GNPgiYj0MKLSuwNQPwN0bqcFzA473JOobKnK8yKG/sRCAoWLUzysbnEjWcEEW9OkQbfW/cWIHnS85zlfau3enOTYYb/6dJxxJizel8CetIIejopMsA7oEJRupHqNvqCicxGJvJfbwakLobkmfzqwmY=
+ properties :
+  width : 290
+  height : 204
+  widthClient : 288
+  heightClient : 172
+ controls :
+  -
+    name : Edit_Server
+    identifier : 0x286e0c8a05de1307
+    internal_properties : CAAAAAgAAACanbFlI44VHZu6Rv4qjUBGBhxR7YwCqWmxGnfsNl/+81wo0+SrOUZ3xFTjLDpc5ZTWVqFD4bQ66nM2nZzk21kPwpQ5OI+Pov/bYPbi96qsHXL7TDwVl7IJEMUQsQwNQNRX6AxOmOHgO4tHzgGgN86JQJMVnI6gOw+b2lk25ZQsNowLfV2oG/k+ilG5GX7XsldgxjHVd95ogw+Fd4tfVMWSKuz9AaHu/JcJ1Oc7SlsBBlArea6kgl37CLxesIEjFqsW7ujyOpCFLNRbCcO7vmgM+I+nOVd9DC5BMy0BCPCKgYnT1uSaDryrEGjLKuKqzRWj0hqCEXTESGFKy4xUYnC7GafG1wVISwLy/Brpcg7taJtD/aOvo/7BvR0Z/6nn34WHHWs0XOs6MFHiv+VVDRkZ14R4HnNn/QUmV9OgZerbQzFxkZ3ldPM1cVPyrCPbe4rTJLpAoUSJEo0T1UJlzkQ4TmORqmpdFsC9FH5G0wj7fFfMTlDjQC1hHeAB3QeEX7tAcjOPbH/ouagzW4zhMAhXREFuZChprhGfemCPYKweIB9xf6RvQoSRmN9S+KNxejBq4To3pnRv2e+5C1wMe6AiONf6AqaoJR32P0eYzHiZtcijbSRV1QJzNcbrOBGEyK8GR5Msr9Uvi+4QeVqResrd44LVhSGc0i2jpbU3acYKCyLAEldhndD9Tdad5CD45o7eKO+jqvbM7aVZB4XMnbtrFsBlwpQpo6tINhdi3VSgMsZ5T+7JoEWjzmZO8ORjPynL02EvEUMLZqDNp4LFBObCB+ZIA7ViFzOoQsDZihLQoZn/8J/FikMY8g7ymKaWxuCkx/TKX9JU5mpbTpGmRPJqt2S+tq/AtFGDwltDTRzT01xT6D3cAKsE+AL6BfX5A2xdEWYJ0zGOb7Cn3Fdp8YzAvtc4SQOoj3bhAN/XmYYgVH2oRrckwG6lP/+8pOhsFRvAlP9Xufeama6lA9B26X2b1UHmC+/zfYn6J6miwsNJg2sPjFHo+kQI2x+UCp6uKcov4skydK0cAwihzbxhG2nMVJyF2r6XoC/K7je4Tdoht7EdjQ1/oDkyStQ5W9Jvlo0Sb31Fyh+0BazkTAGV9zVJ8UalXg==
+    properties :
+     x : 13
+     y : 36
+     width : 262
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         MySelf = NetMachineName()
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : Edit_Login
+    identifier : 0x286e0c8a05df1307
+    internal_properties : CAAAAAgAAAAzUEhtDx+ldYPvB/rZqruVLG04nSzx5GRIgOZpGM83REpa/AJTYvzhXy4nLywafe/dFzp/qP3Bk9fn70cv4l6bc7trQWIyeuyNtEaoExsGEI3WwHhZhCQe6XpFPi8JCEkTSD8bT5HxNwAEBgFzGDbJ6XaFJAoQzqLHZRzGp0cXfY5WJ0skYv50bsEAUapsbrYKj0zavriQz1Bnn73nw20MzYIjBYsUU3QMfywP8rIAoSY0Z1JihOYeQDM/8kL4LJiF4Td/N2ujyHiyZoETwjSUd3u2eOOxtXMtsp3AUqFjNBzbChSWCk8WwL+drlVmtQFv/cZjMBhxWCx0MSvx3XAOMJalJEvUpWrvf56G8dxn1n1+19l61qjMTVI1lxYBUpffmVLrJOeixvNcoHOQb/E12vYCDS4m1T51KQsf8/Bp1xAsunvs0LVQiX2aEzC1DXN/0thYFZvvjaWQdjmqtWUN4bpD29xcUWpIdmQ6gTI++7/sLabyUSt/cderwy3rnlKnAW0E3b6MRtaA1kya2/1bwozpAFrVghKv5/dOWmGnw7Mp+rB4h/XRvzhJfJuJ1cgO0c+BMZ/EyRZWRuQcKy8MkoV1thmPwD0Xmrj0UCTU7XQD0BQSvrHXrNv4iL3IFes229TE/FbSh3sbJFB97gV/9ZiC88r1UdcA8I7v8zQ7tT6gVyd+knWVlOtIpN4a/cJ+rFqXo9NV5aza8hfCTwiRkM5WlDnqGLUp2TyCy/4fMBQzqJxw1zQ7kW8ztH4p/uudmUDnZpwK0LeejDrV3H3YBXj/aRTl9v2lFYebsKxZ/82HHRuS4/Y8PX8bPlpav2iYXyveLGObNuc6cSN0/lMOKRqNIvar4cvs7So/Hdy+beaZQddNiQIOa0M/d2ml9MLLu7EJVlDdi0GCzSUjd8tQHhunFRiFkuhgCVrTLUI5jsUsyRPTr3kfWCrvgJhc2P9QYMS/2sijaxHi/EA4/9q1v3+JIQh0Glc3AtbUiJ0arePsgnJiGIB/I/PsCDrYR3gii06eOdCEjP1w2jjAsFP+90Ot7M/JAdruc/Ry1vpHkvVqzr05vTK7q5q2yu6YjW2ywuphqhg15s4Z9o4wvyQ3
+    properties :
+     x : 13
+     y : 66
+     width : 262
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         MySelf = NetMachineName()
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : OK
+    identifier : 0x286e0c8a05e01307
+    internal_properties : CAAAAAgAAAD73GmWK03WXD3NnndV5ScTU0NcyBQDbgOQFt4f3j2Yt1ng0uOk6EXcSBj9RbCm7/88dR5PH1gp8BigfctrVQenz0O9CUfyQdXJrsRlSQUL7VitI8ViB9GvtCH13yDK+d/cfAixw+QAYgjbpoaPpWMH+54aqXlcHwT9yW3yFE8t1EHUDMhmKiX0dBYgi/gHHK4C3dE9/VpUUmdutbnar990SdP4GCkNeyMj+n+dgK/7Br7bOlDGfu/2EuA3yVt29KpoM52/bCkoavTpuMjyuo/ZJBNvITnFOw4qm9sQWmHzNTwGgaGTZwekF+kn64CPOhS0h9lMDY8tyo7CKiG0Af3ZjTaY/50D4GiU8J8tI4y9Zjwm4TIaEEmjww1jTcsU3wYGtND23UQ5uaxm5PAtFWwJjvtflxpoFUQNqV1KS8jUbDeDB3Hrx8j/98QK06md3JAY0cCeMWulcEGNun9URwwFbyLH7/BSn0pTdn9klrG6XKLILFuIiOzOk1SyUDdYwM/RraPm/+lbMTrpUlDq258f+khqvspvn8jWA/PN9zuC2Z6WvS3hdzbKocCKC1ij7IE+FIMvwHgA8U7K58F944DvhX9k091iEOO56XVblC2pz5jVmY43Com+sKBjcC+evSwmHcK2gZULGXQQlSLch0kR6qBGGeJ5hzaz4B9LsdV23LLdUUUsZJaS2ai53JbjNw3hdkqN5ttk3NKM5vJyFYIEW7aJRE/HXUF47+L3CuIoab1e7X+lRO53jGbHJkp1+mf6KghEc4HG+gkA6/Ryy6zHh2YX75VmiQaDoI3Ius9tim4f+lueaWLfBXjwi4dpTa6aoljQNcwc6xIgPTAYTOfdnheyaNw=
+    properties :
+     x : 66
+     y : 126
+     width : 75
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Check the server
+         IF NetIPAddress(Edit_Server)~="" THEN
+         	Info(<§$0000§>,ErrorInfo())
+         	ReturnToCapture(Edit_Server)
+         END
+         
+         // Connecting to the specified server
+         OpenSister(Client_Window,Edit_Server,Edit_Login)
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Cancel1
+    identifier : 0x286e0c8a05e11307
+    internal_properties : CAAAAAgAAADH4g1O/7WAd80+wdmWthX2DttChRcOEUthMOtyLIzGc6t0vrk7PPULJ30EK2PAktEQEPPnHrPmS3fOlrn2vo48+Z9KYZIeSj5iVoQPZOjjXYW4aoVflfN6MuyRLQZ/jiD/6de/vwBiDfGGMvRbooEwzGMiC+rqLV4lM6pQFvar06lfqDlyQUnsJm8zbc1cQtFEJTlU9OrZ/CNp6xSC6OU1pxX/uSfdNbwjmHoTNCMzjHLGC1z4fJI2OTVWTFLEQ1/ebqM+mgK5YV9zY2jReacrzJmUoGgdCSOuTBbXIyYrKA7FFiVFM0rQBq8cYA5w4hc8xErdzLNfsxamxPXGehe7xbYEJfkne4INctm+KZminjUul5DmFSuFR65uVYKOPucAKYX2Jki9xmQAscwOfzMK/kmKpVj3b6qe56P4kxUN08NQG4LnwK8ovPMK0UQ+/XI0bVFmOhiorRIcev2V4P3Hyx42MxNpeNlap3vmL+yBZBiuZ1MDUYObNDvqXs5tdddDBcre2ijM1AH2ZsBTYFi1mnBRZqt2WLNtnDn5COin7WTsPrPq9EmrjrckOc0sXRHkJF7hNTUTMudNeXHocHUzJ4lN6SL3C5yWTI0v9/BsUbDzkoSGrfbj3T/lKFpVRPS0k6tiYK7yrnGzwSa7xsDvjjzz/elgQDNkDx1VUgJDKoKTbAn9PxvZkMFrCJUKxqPxFrslHEd6w/hQGTH30OmzPe6OHS++J1Av/QqZ8cJaVzT0gARDL2Kb7oNxkHGR1g4hGjYLCgrEAiLCXNFOLRzhNXgKrTKpeHc4J0oJ5mMG4TGPYVaZ+04VXwZUFwV9ds7gIOFRQsqOrHi5a6Z+++Fwj/QMRawkYiZNyEQ=
+    properties :
+     x : 147
+     y : 126
+     width : 75
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Close
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x3c838a790a313dd1
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAA4S0DukGb+H20fxxhr5JFMV87jsDU8NTchyOy/YrXWNlHJxXjyLFBg+U0KXnxd1+nABRvhA8PLb6sBl77ep1qN7TTmanMI7E3+9l7alCx2fZRFUEIW+p2CtqR9ANuMGyg=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Fenetre_Identification
+resources :
+ string_res :
+  identifier : 0x3c838a6564d9f305
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Unable to define IP address of specified server
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
